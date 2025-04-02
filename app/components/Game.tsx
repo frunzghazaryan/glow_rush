@@ -14,7 +14,6 @@ import RNFetchBlob from "rn-fetch-blob"
 import { WebView } from "react-native-webview"
 import RNFS from "react-native-fs"
 import * as SplashScreen from "expo-splash-screen"
-import { spacing } from "@/theme"
 import SystemNavigationBar from "react-native-system-navigation-bar"
 
 interface ITestViewProps {
@@ -24,7 +23,13 @@ interface ITestViewProps {
   target?: any
 }
 
-SplashScreen.setOptions({ duration: 0 })
+const removeSplashScreenAnimation = () => {
+  if (Platform.OS === "android") {
+    SplashScreen.setOptions({ duration: 0 })
+  }
+}
+
+removeSplashScreenAnimation()
 
 async function copyRecursive(source: string, destination: string) {
   console.log(`${source} => ${destination}`)
@@ -197,7 +202,7 @@ export function Game(props: ITestViewProps): JSX.Element {
   }, [])
 
   const handleLoadEnd = () => {
-    setTimeout(() => SplashScreen.hideAsync(), 800 + 1500) // delay sound 1.5 seconds to render the game
+    setTimeout(() => SplashScreen.hideAsync(), 800)
   }
 
   if (origin === "") {
