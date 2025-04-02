@@ -1,11 +1,11 @@
 {
-	"name": "Red Ball In Maze",
-	"short_name": "Red Ball In Maze",
+	"name": "Neon Reaction",
+	"short_name": "Neon Reaction",
 	"description": "",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "portrait",
-	"background_color": "#000000",
+	"background_color": "#ffffff",
 	"icons": [
 		{
 			"src": "icons/icon-16.png",
