@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "8620A9D0-ABE5-4AE6-A785-239CBDB18CA0.png",
+      "filename" : "glow_rush_splash_300.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "8620A9D0-ABE5-4AE6-A785-239CBDB18CA0 1.png",
+      "filename" : "glow_rush_splash_600.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "8620A9D0-ABE5-4AE6-A785-239CBDB18CA0 2.png",
+      "filename" : "glow_rush_splash_900.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
