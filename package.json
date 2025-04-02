@@ -30,6 +30,7 @@
     "prebuild:clean": "npx expo prebuild --clean",
     "icon": "npx ignite-cli generate app-icon ios",
     "splash": "npx ignite-cli generate splash-screen \"#0E112A\"",
+    "rename": "npx react-native-rename@latest \"Glow Rush\" -b \"com.nativeapps.glowrush\"",
     "update:game": "rm -rf ./game/*; rm -rf ./android/app/src/main/assets/game/*; cp -r ~/Downloads/redball14/* ./game/;cp -r ~/Downloads/Red_Ball_In_Maze_9/* ./android/app/src/main/assets/game/"
   },
   "dependencies": {
