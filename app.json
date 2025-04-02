@@ -1,0 +1,81 @@
+{
+  "name": "starball",
+  "displayName": "Starball",
+  "expo": {
+    "name": "starball",
+    "slug": "starball",
+    "scheme": "starball",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/images/app-icon-all.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "icon": "./assets/images/app-icon-android-legacy.png",
+      "package": "com.nativeapps.starball",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
+        "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
+      },
+      "splash": {
+        "backgroundColor": "#0E112A",
+        "image": "./assets/images/splash-logo-all.png",
+        "resizeMode": "contain"
+      }
+    },
+    "ios": {
+      "icon": "./assets/images/app-icon-ios.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nativeapps.starball",
+      "splash": {
+        "backgroundColor": "#0E112A",
+        "image": "./assets/images/splash-logo-ios-mobile.png",
+        "resizeMode": "contain"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/app-icon-web-favicon.png",
+      "bundler": "metro",
+      "splash": {
+        "backgroundColor": "#0E112A",
+        "image": "./assets/images/splash-logo-web.png",
+        "resizeMode": "contain"
+      }
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-logo-all.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0E112A"
+        }
+      ]
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "splash": {
+      "backgroundColor": "#0E112A",
+      "image": "./assets/images/splash-logo-all.png",
+      "resizeMode": "contain"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "396b1de2-ba99-40f8-828d-33ed4b708d26"
+      }
+    }
+  },
+  "ignite": {
+    "version": "10.1.6"
+  }
+}
