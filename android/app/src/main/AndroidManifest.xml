@@ -34,7 +34,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="starball"/>
-        <data android:scheme="com.nativeapps.starball"/>
+        <data android:scheme="com.nativeapps.glowrush"/>
       </intent-filter>
     </activity>
   </application>

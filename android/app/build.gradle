@@ -86,9 +86,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.nativeapps.starball'
+    namespace 'com.nativeapps.glowrush'
     defaultConfig {
-        applicationId 'com.nativeapps.starball'
+        applicationId 'com.nativeapps.glowrush'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 5

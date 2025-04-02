@@ -1,4 +1,4 @@
-package com.nativeapps.starball
+package com.nativeapps.glowrush
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

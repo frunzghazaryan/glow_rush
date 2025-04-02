@@ -1,4 +1,4 @@
-package com.nativeapps.starball
+package com.nativeapps.glowrush
 
 import android.app.Application
 import android.content.res.Configuration

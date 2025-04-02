@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "starball.app"
-               BlueprintName = "starball"
-               ReferencedContainer = "container:starball.xcodeproj">
+               BuildableName = "GlowRush.app"
+               BlueprintName = "GlowRush"
+               ReferencedContainer = "container:GlowRush.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "starballTests.xctest"
-               BlueprintName = "starballTests"
-               ReferencedContainer = "container:starball.xcodeproj">
+               BuildableName = "GlowRushTests.xctest"
+               BlueprintName = "GlowRushTests"
+               ReferencedContainer = "container:GlowRush.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "starball.app"
-            BlueprintName = "starball"
-            ReferencedContainer = "container:starball.xcodeproj">
+            BuildableName = "GlowRush.app"
+            BlueprintName = "GlowRush"
+            ReferencedContainer = "container:GlowRush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "starball.app"
-            BlueprintName = "starball"
-            ReferencedContainer = "container:starball.xcodeproj">
+            BuildableName = "GlowRush.app"
+            BlueprintName = "GlowRush"
+            ReferencedContainer = "container:GlowRush.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

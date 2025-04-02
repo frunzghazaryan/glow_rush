@@ -1,10 +1,10 @@
 {
-  "name": "starball",
-  "displayName": "Starball",
+  "name": "Glow Rush",
+  "displayName": "Glow Rush",
   "expo": {
-    "name": "starball",
-    "slug": "starball",
-    "scheme": "starball",
+    "name": "Glow Rush",
+    "slug": "Glow Rush",
+    "scheme": "glowrush",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -19,7 +19,7 @@
     ],
     "android": {
       "icon": "./assets/images/app-icon-android-legacy.png",
-      "package": "com.nativeapps.starball",
+      "package": "com.nativeapps.glowrush",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/app-icon-android-adaptive-foreground.png",
         "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
@@ -33,7 +33,7 @@
     "ios": {
       "icon": "./assets/images/app-icon-ios.png",
       "supportsTablet": true,
-      "bundleIdentifier": "com.nativeapps.starball",
+      "bundleIdentifier": "com.nativeapps.glowrush",
       "splash": {
         "backgroundColor": "#0E112A",
         "image": "./assets/images/splash-logo-ios-mobile.png",
