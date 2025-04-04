@@ -25,8 +25,8 @@
         "backgroundImage": "./assets/images/app-icon-android-adaptive-background.png"
       },
       "splash": {
-        "backgroundColor": "#0E112A",
-        "image": "./assets/images/splash-logo-all.png",
+        "backgroundColor": "#000",
+        "image": "./assets/images/splash-logo-android-universal.png",
         "resizeMode": "contain"
       }
     },
@@ -35,7 +35,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.nativeapps.glowrush",
       "splash": {
-        "backgroundColor": "#0E112A",
+        "backgroundColor": "#000",
         "image": "./assets/images/splash-logo-ios-mobile.png",
         "resizeMode": "contain"
       }
@@ -44,7 +44,7 @@
       "favicon": "./assets/images/app-icon-web-favicon.png",
       "bundler": "metro",
       "splash": {
-        "backgroundColor": "#0E112A",
+        "backgroundColor": "#000",
         "image": "./assets/images/splash-logo-web.png",
         "resizeMode": "contain"
       }
@@ -65,7 +65,7 @@
       "tsconfigPaths": true
     },
     "splash": {
-      "backgroundColor": "#0E112A",
+      "backgroundColor": "#000",
       "image": "./assets/images/splash-logo-all.png",
       "resizeMode": "contain"
     },
