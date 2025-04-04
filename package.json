@@ -29,7 +29,7 @@
     "serve:web": "npx serve dist",
     "prebuild:clean": "npx expo prebuild --clean",
     "icon": "npx ignite-cli@8 generate app-icon android -skip-source-equality-validation",
-    "splash": "npx ignite-cli@8 generate splash-screen \"#000\"",
+    "splash": "npx react-native-bootsplash generate ignite/templates/splash-screen/logo.png --platforms=android --background=000000",
     "rename": "npx react-native-rename@latest \"Glow Rush\" -b \"com.nativeapps.glowrush\"",
     "update:game": "rm -rf ./game/*; rm -rf ./android/app/src/main/assets/game/*; cp -r ~/Downloads/glowRush/* ./game/;cp -r ~/Downloads/glowRush/* ./android/app/src/main/assets/game/"
   },
